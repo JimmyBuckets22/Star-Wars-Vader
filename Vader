@@ -1,0 +1,29 @@
+this._name = "you";
+this._char = "/o△o\";
+this._pendingDirection = null;
+this._powers = {lightsaber: false};
+this._movementKeys = {};
+
+	this._movementKeys[104]	= 0;
+	this._movementKeys[105]	= 1;
+	this._movementKeys[102]	= 2;
+	this._movementKeys[99]	= 3;
+	this._movementKeys[98]	= 4;
+	this._movementKeys[97]	= 5;
+	this._movementKeys[100]	= 6;
+	this._movementKeys[103]	= 7;
+	
+	this._movementKeys[12]	= -1;
+	this._movementKeys[101]	= -1;
+	this._movementKeys[190]	= -1;
+	
+	this._movementKeys[38] = 0;
+	this._movementKeys[33] = 1;
+	this._movementKeys[39] = 2;
+	this._movementKeys[34] = 3;
+	this._movementKeys[40] = 4;
+	this._movementKeys[35] = 5;
+	this._movementKeys[37] = 6;
+	this._movementKeys[36] = 7;
+}
+Game.Player.extend(Game.SaberUser);
